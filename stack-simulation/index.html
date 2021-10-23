@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vaje</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+
+    <h1>Stack simulation</h1>
+
+    <form id = "form-wrapper">
+      <div class="function-button-wrapper">
+        <input type="text" name="neki" id="neki">
+        <button class="button" type="button" onclick = "newData()" id="addValue">add value to stack</button>
+        <button class="button" type="button" onclick="displayData()" id="displayValue">Display data from stack</button>
+        <button class="button" type="button" onclick="popData()" id="popValue">Pop data from stack</button>
+        <button class="button" type="button" onclick="showSize()" id="sizeValue">Display the size of the stack</button>
+      </div>
+    </form>
+
+	<script src="StackLogic.js"></script>
+  </body>
+</html>
